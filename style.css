@@ -150,3 +150,24 @@ nav a.active {
 nav a.active::after {
   width: 100%;
 }
+
+
+
+
+
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-card h2 {
+  min-height: 120px;
+}
+
+.portfolio-card p {
+  min-height: 80px;
+}
+
+.portfolio-card .btn {
+  margin-top: auto;
+}
