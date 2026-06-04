@@ -130,3 +130,23 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+nav a.active {
+  color: #00d4ff;
+  font-weight: 700;
+}
+
+nav a.active::after {
+  width: 100%;
+}
