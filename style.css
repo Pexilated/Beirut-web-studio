@@ -238,3 +238,17 @@ html, body {
     grid-template-columns: 1fr !important;
   }
 }
+
+
+
+@media (max-width: 850px) {
+  .cards.four,
+  .cards.three {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+}
