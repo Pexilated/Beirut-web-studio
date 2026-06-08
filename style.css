@@ -252,3 +252,29 @@ html, body {
     width: 100% !important;
   }
 }
+
+
+
+
+
+@media (max-width: 850px) {
+  .portfolio-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    padding: 40px 7% !important;
+  }
+
+  .portfolio-card {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .portfolio-card h2 {
+    min-height: auto !important;
+  }
+
+  .portfolio-card p {
+    min-height: auto !important;
+  }
+}
