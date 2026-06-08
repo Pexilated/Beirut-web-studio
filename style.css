@@ -209,3 +209,19 @@ nav a.active::after {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.cards {
+  max-width: 100%;
+}
+
+.card {
+  min-width: 0;
+}
