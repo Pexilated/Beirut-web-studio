@@ -174,3 +174,13 @@ nav a.active::after {
 .portfolio-card .btn {
   margin-top: auto;
 }
+
+
+
+
+.card:active,
+.portfolio-card:active,
+.pricing-card:active,
+.btn:active {
+  transform: scale(0.97);
+}
