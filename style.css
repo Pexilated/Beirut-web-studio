@@ -225,3 +225,16 @@ html, body {
 .card {
   min-width: 0;
 }
+
+
+
+
+
+
+
+@media(max-width:900px){
+  .cards.four,
+  .cards.three {
+    grid-template-columns: 1fr !important;
+  }
+}
